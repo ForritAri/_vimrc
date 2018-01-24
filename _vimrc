@@ -31,6 +31,9 @@ set lines=40 columns=160
 set ruler
 set clipboard=unnamed
 
+" Setur línunúmer fremst. set nonumber tekur þau út. 
+set number
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
