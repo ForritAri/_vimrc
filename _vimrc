@@ -69,7 +69,7 @@ map <leader>t<leader> :tabnext
 " Return to last edit position when opening files (You want this!)
 " au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
-" set 'updatetime' to 15 seconds when in insert mode
+" set 'updatetime' to 3 seconds when in insert mode
 au InsertEnter * let updaterestore=&updatetime | set updatetime=3000
 au InsertLeave * let &updatetime=updaterestore
 " automatically leave insert mode after 'updatetime' milliseconds of inaction
